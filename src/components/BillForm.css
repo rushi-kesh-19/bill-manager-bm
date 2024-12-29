@@ -1,0 +1,60 @@
+.bill-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bill-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bill-form input,
+.bill-form select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.bill-form input:focus,
+.bill-form select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.bill-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bill-form button:hover {
+  background-color: #0056b3;
+}
+
+.bill-form h3 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.bill-form select {
+  appearance: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.bill-form select:focus {
+  outline: none;
+}

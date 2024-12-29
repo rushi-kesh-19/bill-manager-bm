@@ -1,0 +1,27 @@
+.time-series-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .time-series-chart h3 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .time-series-chart .recharts-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .time-series-chart .recharts-surface {
+    max-width: 100%;
+  }
+  
